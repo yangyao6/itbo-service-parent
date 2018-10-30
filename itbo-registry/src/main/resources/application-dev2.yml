@@ -1,6 +1,13 @@
 server:
   port: 8763
+
+spring:
+  application:
+    name: eureka-server2
+
 eureka:
+  server:
+    enable-self-preservation: false
   instance:
     hostname: peer2
   client:

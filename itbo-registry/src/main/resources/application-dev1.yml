@@ -1,6 +1,13 @@
 server:
   port: 8762
+
+spring:
+  application:
+    name: eureka-server1
+
 eureka:
+  server:
+    enable-self-preservation: false   #关闭eureka自我保护模式
   instance:
     hostname: peer1
   client:
