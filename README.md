@@ -5,6 +5,7 @@ sys-sevice-base     平台基础服务项目
 # itbo-router
     Zuul网关、路由、分发、负载均衡、熔断器、校验、
     1.现已基本完成网关路由配置
+    2.增加网关filter的token验证
 # itbo-service
     存放各个模块项目
     1.itbo-service-sys为系统模块项目

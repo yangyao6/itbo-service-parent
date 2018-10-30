@@ -11,8 +11,12 @@ eureka:
       defaultZone: http://peer1:8762/eureka/,http://peer2:8763/eureka/
 
 zuul:
+#  SendResponseFilter:
+#    post:
+#      disable: true  #禁用指定的filter
   ignored-services: '*'
   servlet-url: /
+  prefix: /v1   #接口版本号，访问需要加上
   routes:
     sys:
       path: /sys/**
@@ -23,3 +27,4 @@ zuul:
     feign:
       path: /feign/**
       serviceId: eureka-feign-client
+
