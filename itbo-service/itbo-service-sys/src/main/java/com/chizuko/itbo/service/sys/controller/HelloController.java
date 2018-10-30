@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName HelloController
- * @Description TODO
+ * @Description
  * @Author yangyao
  * @Date 2018/10/23 0023 19:49
  * @Version 1.0

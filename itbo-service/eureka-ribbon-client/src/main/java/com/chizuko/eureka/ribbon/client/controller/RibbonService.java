@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @ClassName RibbonService
- * @Description TODO
+ * @Description
  * @Author yangyao
  * @Date 2018/10/30 0030 09:19
  * @Version 1.0

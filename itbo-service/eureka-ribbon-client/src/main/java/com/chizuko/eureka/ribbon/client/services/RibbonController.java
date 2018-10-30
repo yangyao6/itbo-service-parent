@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName RibbonController
- * @Description TODO
+ * @Description
  * @Author yangyao
  * @Date 2018/10/30 0030 09:22
  * @Version 1.0
