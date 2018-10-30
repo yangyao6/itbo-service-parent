@@ -11,5 +11,12 @@
 
     <artifactId>itbo-service</artifactId>
 
+    <modules>
+        <module>eureka-feign-client</module>
+        <module>eureka-ribbon-client</module>
+        <module>itbo-service-sys</module>
+        <module>itbo-service-test</module>
+    </modules>
+
 
 </project>
